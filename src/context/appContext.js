@@ -26,7 +26,7 @@ const initialState = {
   userLocation: userLocation || "",
   jobLocation: userLocation || "",
 };
- 
+
 const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
@@ -49,11 +49,11 @@ const AppProvider = ({ children }) => {
     localStorage.setItem("location", location)
   }
 
-  const removeUserFromLocalStorage = () => {
-    localStorage.removeItem("token")
-    localStorage.removeItem("user")
-    localStorage.removeItem("location")
-  }
+  // const removeUserFromLocalStorage = () => {
+  //   localStorage.removeItem("token")
+  //   localStorage.removeItem("user")
+  //   localStorage.removeItem("location")
+  // }
 
   const registerUser = async (currentUser) => {
     dispatch({ type: REGISTER_USER_BEGIN });
