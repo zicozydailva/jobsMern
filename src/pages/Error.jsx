@@ -8,7 +8,7 @@ function Error() {
       <div className="">
           <img src={img} alt="Not Found" />
           <h1>Ohhh! Page Not Found</h1>
-          <p>We can't seems to find the page you'relooking for</p>
+          <p>We can't seems to find the page you're looking for</p>
           <Link to="/">Back Home</Link>
       </div>
   </Wrapper>;
