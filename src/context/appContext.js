@@ -7,6 +7,9 @@ const initialState = {
   showAlert: false,
   alertText: "",
   alertType: "",
+  user: null,
+  token: null,
+  userLocation :""
 };
 
 const AppContext = createContext();
