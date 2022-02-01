@@ -47,7 +47,7 @@ const AppProvider = ({ children }) => {
       });
       // local str
     } catch (error) {
-      console.log(error.response);
+      // console.log(error.response);
       dispatch({
         type: REGISTER_USER_ERROR,
         payload: { msg: error.response.data.msg },
