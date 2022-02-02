@@ -1,4 +1,4 @@
-import Logo from "../components/logo"
+import Logo from "./Logo"
 import Alert from "./Alert"
 import FormRow from "./FormRow"
 import Navbar from "./Navbar"
