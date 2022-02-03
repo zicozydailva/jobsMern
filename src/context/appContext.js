@@ -224,6 +224,7 @@ const AppProvider = ({ children }) => {
     try {
       const {data} = await authFetch(url)
       const {jobs, totalJobs, numOfPages } = data
+      console.log(data);
     dispatch({
       type: GET_JOB_SUCCESS,
       payload: {
