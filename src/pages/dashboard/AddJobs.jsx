@@ -5,7 +5,7 @@ import Wrapper from "../../assets/wrappers/DashboardFormPage";
 const AddJobs = () => {
   const {
     isLoading,
-    showALert,
+    showAlert,
     displayAlert,
     position,
     company,
@@ -35,14 +35,13 @@ const AddJobs = () => {
     if(isEditing) {
       // 
     }
-    // create job
     createJob()
   };
   return (
     <Wrapper>
       <form className="form">
         <h3>{isEditing ? "Edit Job" : "Add Job"}</h3>
-        {showALert && <Alert />}
+        {showAlert && <Alert />}
         <div className="form-center">
           {/* POSITION */}
           <FormRow

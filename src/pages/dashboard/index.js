@@ -1,4 +1,4 @@
-import AllJobs from "./AddJobs"
+import AllJobs from "./AllJobs"
 import AddJobs from "./AddJobs"
 import Stats from "./Stats"
 import Profile from "./Profile"
